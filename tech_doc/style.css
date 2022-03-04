@@ -1,0 +1,33 @@
+*{
+	list-style: none;
+	text-decoration: none;
+}
+.main{
+	display: flex;
+	border-right: 1px solid black;
+}
+.left{
+	width: 22%;
+	height: 650px;
+	border-right: solid;
+}
+.right{
+	width: 80%;
+	height: 650px;
+}
+li {
+	margin-bottom: 20px;
+	margin-left: 0px;
+	font-size: 18px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    cursor: pointer;
+    border-bottom: 2px  solid black;
+}
+h1{
+	border-bottom: 2px solid black;
+
+}
+li a{
+	color: black;
+}

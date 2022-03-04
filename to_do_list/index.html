@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Work ToDo's</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Work ToDo's</h1>
+        <form id="new-task-form">
+            <input type="text" id="new-task-input" placeholder="What do you have planned?" />
+            <input type="submit" id="new-task-submit" value="Add task" />
+        </form>
+    </header>
+    <main>
+        <section class="task-list">
+            <h3>You can add new task to the below list using this box.<br>This list allows you to Edit and Delete tasks</h3>
+            <h2>Here are your pending tasks</h2>
+            <div id="tasks">
+                <!-- <div class="task">
+                    <div class="content">
+                        <input type="text" class="text" value="My task" readonly />
+                    </div>  
+                    <div class="actions">
+                        <button class="edit">Edit</button>
+                        <button class="delete">Delete</button>
+                    </div>
+                </div> -->
+            </div>
+        </section>
+    </main>
+    <script src="scripts.js"></script>
+</body>
+</html>
